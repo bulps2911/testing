@@ -1,0 +1,47 @@
+@media screen and (min-width:810px){
+    .Gallery { 
+      min-width: 20vw;
+      min-height: 50vh;
+      margin-left: auto;
+      margin-right: auto;
+      display: grid;
+       grid-template-columns: repeat(3, 1fr);
+       /* grid-template-columns: 1fr 1fr 1fr; */
+       /* grid-template-rows: auto; */
+       place-items: center;
+       /* border: 2px dashed black;  */
+       justify-items: center;
+    }
+  }
+  
+  @media screen and (max-width:800px){
+    .Gallery { 
+      min-width: 20vw;
+      /* margin: 100px; */
+      margin-left: auto;
+      margin-right: auto;
+      display: grid;
+       grid-template-columns: repeat(1, 1fr);
+       place-items: center;
+       /* border: 2px dashed black;  */
+       justify-items: center;
+      /* grid-template-rows: repeat(8, 5vw); */
+      /* grid-gap: 100px;  */
+    }
+  }
+
+.Card{
+    /* min-width: 10vw; */
+    /* min-height: 15vh; */
+    width: 150px;
+    height: 150px;
+    margin: 20px;
+    /* padding: 20px; */
+    background-color: blueviolet;
+    /* text-align: centre; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  
+}
+
